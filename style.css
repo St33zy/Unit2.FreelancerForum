@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: center;
+
+}
+
+table {
+    margin-top: 10px;
+    table-layout: fixed;
+    width: 100%;  
+    border: 1px solid black;
+}
+th,td {
+    border-collapse: collapse;
+    border:  1px solid black;
+}
+
+h1 {
+    font-size: 40px;
+}
+p {
+    font-size: 25px;
+}
